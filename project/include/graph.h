@@ -1,0 +1,35 @@
+#ifndef _GRAPH_H_
+#define _GRAPH_H_
+#include "tree.h"
+void draw_statement(tree,float,float);
+void draw_empty(tree,float,float);
+void draw_if(tree, float,float);
+void draw_switch(tree,float,float);
+void draw_while(tree,float,float);
+void draw_do_while(tree,float,float);
+void draw(tree,float,float);
+void display(tree);
+void draw(void);
+void draw_open_file(void);
+void draw_open_file_enter(void);
+void error(void);
+void update_write_file(void);
+void clear_draw(void);
+void draw_back(void);
+void draw_sound(void);
+void draw_music(void);
+void draw_size(void);
+void draw_width(void);
+void draw_height(void);
+void draw_apply(void);
+void draw_reset(void);
+void draw_settings(void);
+void text_Load_file(void);
+void text_Open_diagram(void);
+void text_Exit(void);
+void text_Settings(void);
+void detect_mouse(void);
+void update_draw(void);
+void detect_mouse_settings(void);
+void update_settings(void);
+#endif

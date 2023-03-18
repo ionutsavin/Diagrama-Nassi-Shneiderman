@@ -1,0 +1,27 @@
+citeste n
+citeste m
+cat timp n != m repeta
+   m<-m+1
+end while
+m <- m + 1
+daca n>1 atunci
+        m<-1
+altfel
+        m<-0
+end if
+repeta
+    	x++ 
+pana cand x<0
+citeste m
+switch(m)
+case 1:
+print 1
+end case
+case 2:
+print 2
+end case
+default:
+ 
+end default
+end switch
+end code

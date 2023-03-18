@@ -1,0 +1,56 @@
+function suma(a,b)
+begin
+sum<-a+b
+return sum
+end
+ 
+citeste n
+citeste m
+cat timp n != m repeta
+   daca n > m atunci
+        daca m > n atunci
+            m<-1
+        altfel
+            n<-1
+        end if
+   altfel
+       m<-0
+  end if
+  for i<-1 to 7 do
+  m<-m+1
+  end for
+end while
+m <- m + 1
+daca n atunci
+    daca m=0 atunci
+        m<-1
+    end if
+altfel
+    daca n=0 atunci
+        m<-0
+    altfel
+        n<-m+1
+        m<-1
+    end if
+end if
+citeste n
+repeta
+    x = 0
+    cat timp m>0 repeta
+    	x++
+	m<-m-1
+    end while 
+pana cand y
+citeste m
+switch(m)
+case 1:
+print 1
+end case
+case 2:
+print 2
+end case
+default:
+ 
+end default
+end switch
+end code
