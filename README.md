@@ -1,14 +1,11 @@
 
 # Nassi-Shneiderman-Diagrams
 
-Nassi-Shneiderman diagrams (NSDs) are a graphical representation used in software development to describe the design or flow of a program.
+Nassi-Shneiderman diagrams are a graphical representation used in software development to describe the design or flow of a program.
 
 
-##  Purpose
-
-The purpose of this project is to provide a tool for generating NSDs based on pseudocode input. By visualizing the program flow in this way, developers can better understand the structure of their code and identify potential issues early in the development process.
 ## Description
-The project was developed in the CodeBlocks text editor. The purpose of the project is to obtain a Nassi-Shneiderman diagram based on a text file that contains pseudocode. A Nassi-Shneiderman diagram is an easier way to represent a particular source code and is also available in CodeBlocks, see the following link:  https://wiki.codeblocks.org/index.php/NassiShneiderman_plugin.
+The project was developed in CodeBlocks. The purpose of the project is to obtain a Nassi-Shneiderman diagram based on a text file that contains pseudocode. A Nassi-Shneiderman diagram provides a clear and easy-to-understand way to represent complex algorithms, making it easier to identify potential issues and errors in the code. It is also available in CodeBlocks, see the following link:  https://wiki.codeblocks.org/index.php/NassiShneiderman_plugin.
 ## Installation
 
 To use this application, follow these steps:
@@ -55,8 +52,6 @@ To use this application, follow these steps:
 - Note that you might have to make some changes at the project providing the fact that the project was made using a library for Windows and graphics.h is an old library
 ## Documentation
 The project uses BGI (Borland Graphics Interface) and here is a documentation of it: [BGI](https://home.cs.colorado.edu/~main/bgi/doc/)
-
-
 
 
 ## Demo
